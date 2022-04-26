@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  border-bottom: 1px solid white;
+}
+.headerTitle a { 
+  text-decoration: none;
+  color: inherit
+}
+
+.headerTitle {
+  font-size: 22px;
+  letter-spacing: .2rem;
+  padding: 15px 0px 0px 25px;
+}
+
+.nav_icon {
+  font-size: 26px;
+}
+
+.nav_list {
+  display: none;
+}
+
+.navlink {
+  padding: 20px 30px 0px;
+}
+
+/********** NAV DROPDOWN BELOW ***********/
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+}
+
+/* Links inside the navbar */
+.navbar a{
+    float: left;
+    font-size: inherit;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.nav_dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.nav_dropdown, .nav_button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .nav_dropdown:hover .nav_button {
+    background-color: grey;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .nav_dropItems {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 8px
+  }
+
+  /* Links inside the dropdown */
+  .nav_dropItems a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+
+/* Add a grey background color to dropdown links on hover */
+  .nav_dropItems a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .nav_dropdown:hover .nav_dropItems {
+    display: block;
+  }
+
+
+  @media all and (min-width: 1200px) {
+    .nav_dropdown {
+      display: none;
+    }
+    .nav_list {
+      display: block;
+    }
+  }

@@ -1,0 +1,10 @@
+.banner {
+width: 150%;
+height: auto;
+}
+
+@media all and (min-width: 800px) {
+    .banner {
+        width: 100%;
+    }
+  }
