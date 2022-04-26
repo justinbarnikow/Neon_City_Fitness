@@ -1,6 +1,7 @@
 .banner {
 width: 150%;
 height: auto;
+overflow: hidden;
 }
 
 @media all and (min-width: 800px) {
