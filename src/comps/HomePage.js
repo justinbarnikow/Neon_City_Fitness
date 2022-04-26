@@ -8,8 +8,11 @@ function HomePage() {
       <Header />
       <main>
         <div className='hero'>
-          <img className='banner' alt='banner gym photo' src="https://i.pinimg.com/originals/b0/f9/6c/b0f96c3d6095dfff58f563059de425ae.jpg" ></img>
-
+          <img className='banner' alt='banner gym photo' src="https://cdn.thespaces.com/wp-content/uploads/2020/01/Fernanda_Orozco_Refuse_Cycling-11.jpg" ></img>
+          <span className='bannerText_first'>BE GREAT. BE</span>
+          <span className='bannerText_second'>NEON<span className='period'>.</span></span>
+          <span className='bannerText_third'>Sign up at a discounted rate.</span>
+          <button className='banner_button'>JOIN NOW.</button>
         </div>
       </main>
     </div>

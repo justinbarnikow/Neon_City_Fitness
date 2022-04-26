@@ -1,5 +1,5 @@
 .banner {
-width: 150%;
+width: 175%;
 height: auto;
 overflow: hidden;
 }
@@ -7,6 +7,56 @@ overflow: hidden;
     max-width: 100%;
     overflow: hidden;
 }
+
+.bannerText_first {
+    font-size: 32px;
+    position: absolute;
+    top: 200px;
+    left: 50px
+}
+.bannerText_second {
+    color: #13ca91;
+    font-size: 77px;
+    position: absolute;
+    top: 215px;
+    left: 48px;
+}
+.bannerText_third {
+    font-size: 18px;
+    position: absolute;
+    top: 320px;
+    left: 54px;
+}
+
+.banner_button {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 380px;
+    left: 52px;
+    height: 75px;
+    width: 210px;
+    font-family: inherit;
+    border: none;
+}
+
+.banner_button:hover {
+    cursor: pointer;
+    background-color: inherit;
+    color: #e847ae;
+    border: 5px solid #13ca91
+}
+
+.period {
+    color: #e847ae
+}
+
+@media all and (min-width: 600px) {
+    .banner {
+        width: 140%;
+    }
+  }
 
 @media all and (min-width: 800px) {
     .banner {

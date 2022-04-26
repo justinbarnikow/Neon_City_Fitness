@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className='header'>
         <span className='headerTitle'>
-          <Link to='/'>Neon City Fitness</Link>
+          <Link className='title' to='/'>Neon City Fitness</Link>
         </span>
         <nav className='navbar'>
             <div className='nav_dropdown'>
